@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALSEC</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style_portada.css">
+    <link rel="stylesheet" href="./CSS/style_slideshow.css">
+    <link rel="stylesheet" href="
+    https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./CSS/resolucion_dispositivos/resolucion_portada/portada.css">
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+            <div class="grid-item1">
+              <img id="logo" src="./imagenes/Alsecformatopng.png">
+            </div>
+            <div class="grid-item2">
+              <nav>
+                <ul>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="contacto.html">contacto</a></li>
+                </ul>
+              </nav>
+            </div> 
+          </div>
+    </header>
+    <div class="grid-slideshow">
+        <div class=" w3-content w3-display-container grid-cuadro">
+            <img class="mySlides" src="./banner/banner1.png">
+            <img class="mySlides" src="./banner/banner2.png">
+            <img class="mySlides" src="./banner/banner3.png">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+    </div>
+    <section class="principal">
+        <h2 class="titulo-principal">Sobre Alsec</h2>
+        <p></p>
+    </section>
+    
+    <section class="diferenciales">
+        <h3 class="titulo-principal">Servicios</h3>
+            
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales">
+                        <li class="items">Intalacion de camaras </li>
+                        <li class="items">Intalacion de Alarmas </li>
+                        <li class="items">Intalacion de sistema de Fuego</li>
+                    </ul>
+                </div>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy Copyright Alsec - 2022</p>
+    </footer>
+    
+    
+</body>
+<script src="./JAVA/funcion_slideshow.js"></script>
+</html>
