@@ -1,0 +1,57 @@
+.grid-slideshow{
+    display: grid;
+    column-gap: 9px;
+    grid-template-columns: auto;
+    background-color: #888888;
+    padding: 10px;
+  }
+
+  .grid-cuadro{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .mySlides {
+    display:none;
+    width: 100%;
+}
+
+.principal{
+    background-color: #888888;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+    text-align: center;
+}
+
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    list-style: none;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content:"★"
+}
+
+footer{
+    text-align: center;
+    background: url(../imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
